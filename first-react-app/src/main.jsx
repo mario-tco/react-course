@@ -8,6 +8,7 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
   <StrictMode>
+    <h1 className="header">This is declarative coding.</h1>
     <App />
     <Extra />
   </StrictMode>
