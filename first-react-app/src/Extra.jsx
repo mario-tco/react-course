@@ -1,14 +1,8 @@
-import { useState } from 'react'
-
-function Extra() {
+function ExtraComponent() {
 
   return (
-    <>
-        <p>
-            Extra text
-        </p>
-    </>
+    <h2>Extra text</h2>
   )
 }
 
-export default Extra
+export default ExtraComponent;
